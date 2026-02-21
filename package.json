@@ -1,0 +1,20 @@
+{
+  "name": "inscribe-toolbox",
+  "version": "1.0.0",
+  "description": "CLI + lib for Ordinals/BRC-20/Runes: commit-reveal, BRC-20 deploy/mint/transfer (BP07 single-step on Fractal), rune mint/etch/transfer, OP_RETURN",
+  "main": "lib/inscribe.js",
+  "bin": { "inscribe": "lib/inscribe-cli.js" },
+  "scripts": { "start": "node lib/inscribe-cli.js help" },
+  "engines": { "node": ">=18" },
+  "keywords": ["ordinals", "brc-20", "runes", "inscription", "fractal", "bitcoin"],
+  "license": "MIT",
+  "dependencies": {
+    "@scure/btc-signer": "^1.5.0",
+    "@scure/base": "^1.1.1",
+    "micro-ordinals": "^0.0.6",
+    "bitcoinjs-lib": "^7.0.0",
+    "@bitcoinerlab/secp256k1": "^1.7.0",
+    "ecpair": "^4.0.1",
+    "runelib": "^0.1.0"
+  }
+}
