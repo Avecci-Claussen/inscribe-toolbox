@@ -1,4 +1,4 @@
-# Inscribe Toolbox — Full CLI Reference
+# Inscribe Toolbox — Full CLI Reference (underwork)
 
 CLI and library for inscribing on **Fractal Bitcoin (FB)** and **Bitcoin (BTC)**: arbitrary files, BRC-20 deploy/mint/transfer (including **BP07 single-step** on FB), rune mint/etch/transfer, and OP_RETURN messages.
 
